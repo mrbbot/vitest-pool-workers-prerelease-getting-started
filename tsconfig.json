@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "lib": ["esnext"],
+    "types": [],
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["./vitest.config.ts"]
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/7822659275/npm-package-cloudflare-vitest-pool-workers-4795",
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "@types/node": "^20.11.13",
+    "typescript": "^5.3.3",
+    "vitest": "1.1.3"
+  }
+}
