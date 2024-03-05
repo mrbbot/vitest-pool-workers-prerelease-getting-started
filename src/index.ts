@@ -9,7 +9,7 @@ export default {
     } else if (pathname !== "/") {
       return new Response(null, { status: 404 });
     }
-    
+
     let count = await env.COUNTER.get("count") ?? "0";
     if (change !== 0) {
       count = (parseInt(count) + change).toString();
